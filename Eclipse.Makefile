@@ -5,11 +5,12 @@ all:
 clean:
 	cd build; make clean
 
-create_build:
+build:
 	test -d build || mkdir -p build
 	cd build; cmake ..
 
-remove_build:
+cleanup:
+	rm -r build || true
 	rm -rf  build
 
 upload:
