@@ -1,1 +1,4 @@
 
+[submodule "comstack"]
+	path = comstack
+	url = git@github.com:marcobauer/comstack.git
