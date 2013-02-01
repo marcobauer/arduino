@@ -16,11 +16,11 @@ set( CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/ArduinoToolchain.cmake)
 
 project( ${PROJECT_NAME} C CXX)
 
-FILE ( 	GLOB_RECURSE StackSrc 
+FILE ( 	GLOB StackSrc 
 		${LIB_STACK}/*.cpp 
 )
 
-FILE ( 	GLOB_RECURSE StackHdr 
+FILE ( 	GLOB StackHdr 
 		${LIB_STACK}/*.h 
 )
 

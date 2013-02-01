@@ -11,7 +11,10 @@ void setup() {
 }
 
 void loop() {
+
 	serialUsb->alive();
+	serialUsb->checkRxBuffer();
+
 }
 
 int main(void) {

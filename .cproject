@@ -24,21 +24,38 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.817239343" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/avr/include/avr"/>
+									<listOptionValue builtIn="false" value="/usr/include/cppunit"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino/comstack/unittest}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.7"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1476021548" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1568305575" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1203598321" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.110019020" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/avr/include/avr"/>
+									<listOptionValue builtIn="false" value="/usr/include/cppunit"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.546211565" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.446900570" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.654789089" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1081277141" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/avr/include/avr"/>
+									<listOptionValue builtIn="false" value="/usr/include/cppunit"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.194636881" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.93954491" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 						</toolChain>
@@ -69,22 +86,40 @@
 							<tool id="org.eclipse.cdt.build.core.settings.holder.372260413" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1035363353" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/variants/standard"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/lib"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.185281634" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1185781354" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.452732087" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1889906939" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/variants/standard"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/lib"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1255962977" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ARDUINO=100"/>
+									<listOptionValue builtIn="false" value="UBRR0H=1"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.495356563" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.185027146" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1295474929" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/variants/standard"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/lib"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1663810139" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.357043912" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 						</toolChain>
@@ -116,22 +151,98 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1137690006" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/avr/include/avr"/>
+									<listOptionValue builtIn="false" value="/usr/include/cppunit"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino/comstack/unittest}&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1163809258" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.2075686656" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.2082626384" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.893534134" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/avr/include/avr"/>
+									<listOptionValue builtIn="false" value="/usr/include/cppunit"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino/comstack/unittest}&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1250490425" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.665400191" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1563834663" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1632427272" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/devel/arduino/hardware/arduino/cores/arduino"/>
 									<listOptionValue builtIn="false" value="/usr/lib/avr/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include"/>
+									<listOptionValue builtIn="false" value="/devel/arduino/hardware/tools/avr/lib/avr/include/avr"/>
+									<listOptionValue builtIn="false" value="/usr/include/cppunit"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino/comstack/unittest}&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1839845477" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols"/>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1681704839" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="0.1712109988.412060861">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.1712109988.412060861" moduleId="org.eclipse.cdt.core.settings" name="Unittests">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="Build and execute unittests" id="0.1712109988.412060861" name="Unittests" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.1712109988.412060861." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.872197477" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.872197477.1707897178" name=""/>
+							<builder arguments="-f Eclipse.Makefile" cleanBuildTarget="" command="make" enableCleanBuild="false" id="org.eclipse.cdt.build.core.settings.default.builder.1122311191" incrementalBuildTarget="test" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1077471724" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.139325140" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1228114473" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino/comstack/unittest}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.7"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.2004430081" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="UNITTEST=1"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.2127111179" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.919879182" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.896456360" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino/comstack/unittest}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.7"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.2021349763" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="UNITTEST=1"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.385403374" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.432714538" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1660358031" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino/comstack/unittest}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.7"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1456121202" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="UNITTEST=1"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1696974432" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -143,19 +254,36 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="Arduino.null.1657726176" name="Arduino"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="0.1712109988">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Default">
 			<resource resourceType="PROJECT" workspacePath="/Arduino"/>
 		</configuration>
+		<configuration configurationName="Flash Device"/>
+		<configuration configurationName="Build Sources"/>
+		<configuration configurationName="Unittests"/>
 		<configuration configurationName="Build Makefile">
 			<resource resourceType="PROJECT" workspacePath="/Arduino"/>
 		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings">
+		<doc-comment-owner id="org.eclipse.cdt.ui.doxygen">
+			<path value=""/>
+		</doc-comment-owner>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.1712109988.412060861">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1712109988">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1712109988.301785122">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1712109988.1842928109">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>
