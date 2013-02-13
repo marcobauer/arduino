@@ -1,20 +1,18 @@
 #include <Arduino.h>
-#include "UsbSerial.h"
+#include "SerialImpl.h"
 
 unsigned long gTime = 0;
 unsigned int  gSec  = 0;
 
-UsbSerial *serialUsb;
+SerialImpl *serialImpl;
 
 void setup() {
-	serialUsb = new UsbSerial(115200);
+	serialImpl = new SerialImpl(115200);
 }
 
-void loop() {
-
-	serialUsb->alive();
-	serialUsb->checkRxBuffer();
-
+void loop()
+{
+	serialImpl->process();
 }
 
 int main(void) {
