@@ -31,7 +31,7 @@ generate_arduino_library( comstack
 )
 
 set( ${PROJECT_NAME}_LIBS  comstack )
-set( ${PROJECT_NAME}_HDRS  UsbSerial.h )
-set( ${PROJECT_NAME}_SRCS  UsbSerial.cpp main.cpp )
+set( ${PROJECT_NAME}_HDRS  SerialImpl.h )
+set( ${PROJECT_NAME}_SRCS  SerialImpl.cpp main.cpp )
 
 generate_arduino_firmware( ${PROJECT_NAME} )
