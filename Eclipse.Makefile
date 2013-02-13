@@ -12,8 +12,8 @@ build:
 	cd comstack/unittest/build; cmake ..
 
 cleanup:
-	rm -r build || true
-	rm -rf  build
+	rm -rf 	build || true
+	rm -rf  comstack/unittest/build || true
 
 upload:
 	cd build; make upload
