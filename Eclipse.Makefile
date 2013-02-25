@@ -19,5 +19,6 @@ upload:
 	cd build; make upload
 			
 test:
-	cd comstack/unittest/build; make; ../test-run
-	
+	rm comstack/unittest/test-run || true
+	cd comstack/unittest/build; make
+	cd comstack/unittest/build; ../test-run

@@ -1,21 +1,25 @@
 #include <Arduino.h>
-#include "SerialImpl.h"
+#include "Controller.h"
+#include "port_defines.h"
 
-unsigned long gTime = 0;
-unsigned int  gSec  = 0;
-
-SerialImpl *serialImpl;
+Controller *controller;
 
 void setup() {
-	serialImpl = new SerialImpl(115200);
+	pinMode(PORT_P0, OUTPUT);
+	pinMode(PORT_P1, OUTPUT);
+	pinMode(PORT_P2, OUTPUT);
+	pinMode(PORT_P3, OUTPUT);
+	controller = new Controller(115200);
 }
 
 void loop()
 {
-	serialImpl->process();
+	controller->process();
+	controller->alive();
 }
 
 int main(void) {
+
     init();
     setup();
     for (;;) {

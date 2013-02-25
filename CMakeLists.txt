@@ -22,6 +22,7 @@ FILE ( 	GLOB StackSrc
 
 FILE ( 	GLOB StackHdr 
 		${LIB_STACK}/*.h 
+		${LIB_STACK}/abstract/*.h
 )
 
 generate_arduino_library( comstack
@@ -30,8 +31,10 @@ generate_arduino_library( comstack
     BOARD uno
 )
 
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fexceptions")
+
 set( ${PROJECT_NAME}_LIBS  comstack )
-set( ${PROJECT_NAME}_HDRS  SerialImpl.h )
-set( ${PROJECT_NAME}_SRCS  SerialImpl.cpp main.cpp )
+set( ${PROJECT_NAME}_HDRS  Controller.h )
+set( ${PROJECT_NAME}_SRCS  Controller.cpp main.cpp )
 
 generate_arduino_firmware( ${PROJECT_NAME} )
