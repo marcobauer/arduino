@@ -7,7 +7,7 @@ using namespace ComStack;
 
 #define TOGGLE_LED0 ( digitalRead( PORT_P0 ) == LOW ) ? digitalWrite( PORT_P0, HIGH ) : digitalWrite( PORT_P0, LOW )
 
-Controller::Controller( unsigned long baud ) : upTime(0), lastTime(0), ledState(false)
+Controller::Controller( unsigned long baud ) : upTime(0), lastTime(0), ledState(false), delayStartup(true)
 {
 	Serial.begin( baud );
 	lastTime = millis();
@@ -87,6 +87,14 @@ void Controller::warn( ComStack::Warning::Type warning )
 
 void Controller::alive()
 {
+	if( delayStartup )
+	{
+		if( ( millis() - lastTime ) >= 10000)
+			delayStartup = false;
+
+		return;
+	}
+
     if( ( millis() - lastTime ) >= 5000)
     {
     	lastTime = millis();

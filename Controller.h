@@ -27,6 +27,7 @@ private:
 	unsigned int 	upTime;
 	unsigned long 	lastTime;
 	boolean			ledState;
+	boolean 		delayStartup;
 };
 
 #endif /* DATASTACK_H_ */

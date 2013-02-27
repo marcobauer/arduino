@@ -22,7 +22,6 @@ FILE ( 	GLOB StackSrc
 
 FILE ( 	GLOB StackHdr 
 		${LIB_STACK}/*.h 
-		${LIB_STACK}/abstract/*.h
 )
 
 generate_arduino_library( comstack
