@@ -33,6 +33,15 @@ boolean Controller::data_available()
 	return Serial.available();
 }
 
+#if defined( SLIM_FRAME )
+
+void Controller::rxMsgCallback( ComStack::RxMessage *data )
+{
+
+}
+
+#else
+
 void Controller::response( ComStack::RxMessage *data )
 {
 
@@ -47,6 +56,8 @@ void Controller::event( ComStack::RxMessage *data )
 {
 
 }
+
+#endif
 
 void Controller::error( ComStack::Error::Type error )
 {
@@ -89,20 +100,24 @@ void Controller::alive()
 {
 	if( delayStartup )
 	{
-		if( ( millis() - lastTime ) >= 10000)
+		if( ( millis() - lastTime ) >= 5000)
 			delayStartup = false;
 
 		return;
 	}
 
-    if( ( millis() - lastTime ) >= 5000)
+    if( ( millis() - lastTime ) >= 1000)
     {
     	lastTime = millis();
     	upTime += 5;
 
     	TOGGLE_LED0;
 
+#ifndef SLIM_FRAME
     	TxMessage* msgTx = newMessage( Message::event, Instruction::uptime );
+#else
+    	TxMessage* msgTx = newMessage();
+#endif
     	msgTx->add( (byte)(upTime>>8) & 0xFF );
     	msgTx->add( (byte)(upTime) & 0xFF );
     	msgTx->send();
